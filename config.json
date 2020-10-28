@@ -10,4 +10,31 @@
            "size": "medium"
        }
     }
+    "activities": [
+        {
+            "key": "REST-1",
+            "name": "Custom REST Activity",
+            "type": "REST",
+            "outcomes": [
+                {
+                    "next": null
+                }
+            ],
+            "arguments": {
+                "execute": {
+                    "inArguments": [
+                        {
+                            "message": "someMessage"
+                        }
+                    ],
+                    "outArguments": [],
+                    "url": "https://customactivitydemo1.herokuapp.com/",
+                    "body": "{email-body}",
+                    "header": "",
+                    "useJwt": true,
+                    "timeout": 10000
+                }
+            }
+]
+
 }
