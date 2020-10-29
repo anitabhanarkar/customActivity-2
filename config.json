@@ -1,7 +1,7 @@
 {
     "workflowApiVersion": "1.1",
     "metaData": {
-       "icon": "images/sms.png",
+       "icon": "icon.png",
        "category": "message"
     },
     "type": "REST",
@@ -29,7 +29,7 @@
                     ],
                     "outArguments": [],
                     "url": "https://customactivitydemo1.herokuapp.com/",
-                    "body": "{email-body}",
+                    "body": "hello",
                     "header": "",
                     "useJwt": true,
                     "timeout": 10000
