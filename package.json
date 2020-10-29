@@ -283,7 +283,7 @@
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "posttest": "yarn lint",
     "version": "oclif-dev readme --multi && git add README.md ../../docs",
-    "start": "node ./app.js"
+    "start": "node./app.js"
   },
   "types": "lib/index.d.ts"
 }
